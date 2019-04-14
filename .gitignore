@@ -1,2 +1,4 @@
 *.pyc
 settings.sh
+.cat
+.env

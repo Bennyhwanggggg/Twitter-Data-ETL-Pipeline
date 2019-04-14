@@ -6,10 +6,10 @@ from dateutil import parser
 import time
 import os
 import subprocess
+from StreamListener import Streamlistener
 
-#importing file which sets env variable
-subprocess.call("./settings.sh", shell = True)
-
+from dotenv import load_dotenv
+load_dotenv(verbose=True)
 
 consumer_key = os.environ['CONSUMER_KEY']
 consumer_secret = os.environ['CONSUMER_SECRET']
@@ -49,6 +49,7 @@ def connect(username, created_at, tweet, retweet_count, place , location):
 
 
 if __name__== '__main__':
+	print(consumer_key, consumer_secret)
 
 	# # #Allow user input
 	# track = []

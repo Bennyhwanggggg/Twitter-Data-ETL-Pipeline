@@ -1,4 +1,5 @@
 import tweepy
+from mysql.connector import Error
 from dateutil import parser
 import os
 
