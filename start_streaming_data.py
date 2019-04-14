@@ -14,20 +14,6 @@ access_token_secret = os.environ['ACCESS_TOKEN_SECRET']
 
 
 if __name__== '__main__':
-	# # #Allow user input
-	# track = []
-	# while True:
-
-	# 	input1  = input("what do you want to collect tweets on?: ")
-	# 	track.append(input1)
-
-	# 	input2 = input("Do you wish to enter another word? y/n ")
-	# 	if input2 == 'n' or input2 == 'N':
-	# 		break
-	
-	# print("You want to search for {}".format(track))
-	# print("Initialising Connection to Twitter API....")
-	# time.sleep(2)
 
 	# authentification so we can access twitter
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
