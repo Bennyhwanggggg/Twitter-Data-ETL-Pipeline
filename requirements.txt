@@ -1,0 +1,11 @@
+tweepy
+luigi
+mysql
+dotenv
+wordcloud
+nltk
+pandas
+re
+numpy
+matplotlib
+textblob

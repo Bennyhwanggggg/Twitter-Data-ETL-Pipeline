@@ -15,6 +15,11 @@ python3 -m pip install -r requirements.txt
 ```
 
 ## How to use
+To start streaming data
+```
+python3 start_streaming_data.py
+```
+To run data pipline
 ```
 python3 pipeline.py
 ```
